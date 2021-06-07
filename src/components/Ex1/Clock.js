@@ -4,6 +4,7 @@
 
 */
 
+import "./Clock.css"
 import React from "react";
 
 export default class Clock extends React.PureComponent {
