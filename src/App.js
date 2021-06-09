@@ -7,10 +7,10 @@ export default class App extends React.PureComponent {
   render() {
     return (
       <div className="App">
-        <p><h1 className="exampleName">1. Часы</h1></p>
+        <h1 className="exampleName">1. Часы</h1>
         <Clock />
         <hr className="border" />
-        <p><h1 className="exampleName">2. Новости</h1></p>
+        <h1 className="exampleName">2. Новости</h1>
         <Blog />
       </div>
     );
