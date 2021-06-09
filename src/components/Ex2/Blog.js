@@ -20,6 +20,7 @@ export default class Blog extends React.PureComponent {
     const newsCard = ({ title, desc }) => {
       return (
         <div
+          key={title}
           style={{
             boxSizing: "border-box",
             padding: "10px",
